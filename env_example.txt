@@ -1,0 +1,30 @@
+# ScholarBrain — Environment Variables
+# Copy this file to .env and fill in your credentials
+
+# ── OpenAI ──────────────────────────────
+OPENAI_API_KEY=sk-your-openai-api-key-here
+
+# ── Gmail API ────────────────────────────
+GMAIL_CLIENT_ID=your-google-client-id.apps.googleusercontent.com
+GMAIL_CLIENT_SECRET=your-google-client-secret
+GMAIL_REDIRECT_URI=http://localhost:3000/auth/gmail/callback
+
+# ── WhatsApp Business API ────────────────
+WHATSAPP_PHONE_NUMBER_ID=your-phone-number-id
+WHATSAPP_ACCESS_TOKEN=your-whatsapp-token
+WHATSAPP_WEBHOOK_SECRET=your-webhook-verify-token
+
+# ── Telegram Bot (alternative) ──────────
+TELEGRAM_BOT_TOKEN=your-telegram-bot-token
+
+# ── Vector DB (Pinecone) ─────────────────
+PINECONE_API_KEY=your-pinecone-api-key
+PINECONE_INDEX=scholarbrain-index
+PINECONE_ENV=gcp-starter
+
+# ── Google Calendar ──────────────────────
+GOOGLE_CALENDAR_ID=primary
+
+# ── Server ───────────────────────────────
+PORT=3000
+NODE_ENV=development
